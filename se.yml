@@ -9,4 +9,4 @@ stages:
       inputs:
         azureSubscription: con1
         action: Start
-        resourceGroupName: 'vam-wg'
+        resourceGroupName: 'vamwg'
