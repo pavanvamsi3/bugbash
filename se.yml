@@ -7,6 +7,6 @@ stages:
     - task: AzureResourceGroupDeployment@2
       displayName: 'Azure Deployment:Start action on ankhokha-RG'
       inputs:
-        azureSubscription: con1
+        azureSubscription: Git connection 1
         action: Start
         resourceGroupName: 'vamwg'
