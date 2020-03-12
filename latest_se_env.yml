@@ -31,6 +31,6 @@ stages:
     - task: AzureResourceGroupDeployment@2
       displayName: 'Azure Deployment'
       inputs:
-        azureSubscription: con1
+        azureSubscription: test_con
         action: Start
         resourceGroupName: 'rg'
